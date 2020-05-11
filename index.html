@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <meta author="Jonathan Jerome">
+    <meta description="First attempt writing HTML 5 with Udemy : The complete 2020 web development bootcamp">
+    <title>Jonathan's Personal Site</title>
+  </head>
+
+  <body>
+    <!-- Using a HTML table to move our info next to our image  -->
+    <table cellspacing = "20">
+      <tr>
+        <td>
+          <!-- Profile picture, img Image Embed element https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img -->
+          <img intrinsicsize="200 x 200" width="200" height="200" src="Images/Profile/JonathanJerome.jpg" alt="Jonathan Profile Pic">
+        </td>
+        <td>
+          <!-- Header text h1 to h7 -->
+          <h1> Jonathan Jerome </h1>
+          <p><em>DigiPen Graduate <strong>(B.S in Computer Science in Real Time Interactive Simulation with Minor in Mathematics)</strong></em></p>
+          <br>
+          <!-- This is a comment, CTRL + / to quickly comment and uncomment sections of code in ATOM  -->
+          <p> I am a game developer and gamer. I love playing all kinds of games, and I love working on graphics, physics and networking</p>
+        </td>
+      </tr>
+    </table>
+    <!-- Horizontal Rule -->
+    <hr>
+    <h3>Education</h3>
+    <!-- HTML Lists - Section 02 : 16 <ul> unordered list a.k.a bullet points -->
+    <ul>
+      <li>DigiPen Institue of Technology</li>
+      <li>St Andrews Junior College</li>
+    </ul>
+    <h3>Hobbies</h3>
+    <!-- HTML Lists - Section 02 : 16 <ol> ordered element a.k.a numbered lists -->
+    <!-- start = "5", start from number five or type = "a" lowercase letters,"A" uppercase letters,"i" lowercase Roman numerals,"I" uppercase Roman numerals,"1" default numbers -->
+    <ol type = "1" start = "1">
+      <li>Reading</li>
+      <li>Video Games</li>
+      <li>Calisthenics</li>
+    </ol>
+    <!-- Hyperlinks <a> anchor tag https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a -->
+    <h3>Profile</h3>
+    <ul>
+      <li><a href="https://www.facebook.com/jonathan.jerome.75">Facebook</a></li>
+      <li><a href="https://www.linkedin.com/in/jonathan-jerome/">LinkedIn</a></li>
+      <li><a href="https://jonathanjerome27.wixsite.com/website">Portfolio</a></li>
+    </ul>
+    <br>
+    <hr>
+    <!-- TABLE: to structure data using HTML Table<table>, Table Row<tr>, note: most attributes of table have been deprecated -->
+    <h3> Work Experience </h3>
+    <table border="1">
+      <!-- Table Header -->
+      <thead>
+        <tr>
+          <!-- Table Header Cell element -->
+          <th>Dates</th>
+          <th>Work</th>
+        </tr>
+      </thead>
+      <!-- Table Body -->
+      <tbody>
+        <tr>
+          <td>2017 - 2020</td>
+          <td>Teaching Assistant, DigiPen Institute of Technology</td>
+        </tr>
+        <tr>
+          <td>2013 - 2015</td>
+          <td>Military Police, 3rd Sergeant, Singapore Armed Forces</td>
+        </tr>
+      </tbody>
+      <!-- Table Footer  -->
+      <tfoot>
+
+      </tfoot>
+    </table>
+    <hr>
+    <!-- Separate Header made for skills + Nested tables -->
+    <!-- note: use of emojis Windows (Right-click on the taskbar and select “Show touch keyboard button” from the context menu, This will add a keyboard icon to the system tray. Just click that icon to open the touch keyboard) -->
+    <!-- or:   Press the WIN + . (full stop) keyboard shortcut, or else the WIN + ; (semicolon). -->
+    <h2>Skills</h2>
+    <table cellspacing = "10", border="1">
+      <tr>
+        <!-- Table 01 -->
+        <td>
+          <table>
+            <tr>
+              <td>C++/C</td>
+              <td>⭐⭐⭐⭐⭐</td>
+            </tr>
+            <tr>
+              <td>C#</td>
+              <td>⭐⭐⭐⭐⭐</td>
+            </tr>
+            <tr>
+              <td>OpenGL</td>
+              <td>⭐⭐⭐⭐⭐</td>
+            </tr>
+            <tr>
+              <td>Linear Algebra and Math</td>
+              <td>⭐⭐⭐⭐</td>
+            </tr>
+          </table>
+        </td>
+        <!-- Table 02 -->
+        <td>
+          <table>
+            <tr>
+              <td>Unity</td>
+              <td>⭐⭐⭐⭐</td>
+            </tr>
+            <tr>
+              <td>Python</td>
+              <td>⭐⭐⭐⭐</td>
+            </tr>
+            <tr>
+              <td>Java</td>
+              <td>⭐⭐⭐</td>
+            </tr>
+            <tr>
+              <td>Game Engine Development</td>
+              <td>⭐⭐⭐</td>
+            </tr>
+          </table>
+        </td>
+        <!-- Table 03 -->
+        <td>
+          <table>
+            <tr>
+              <td>Vulkan</td>
+              <td>⭐⭐⭐</td>
+            </tr>
+            <tr>
+              <td>PowerShell</td>
+              <td>⭐⭐⭐</td>
+            </tr>
+            <tr>
+              <td>Web Development</td>
+              <td>⭐⭐</td>
+            </tr>
+            <tr>
+              <td>Machine Learning Algorithms</td>
+              <td>⭐⭐</td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+
+
+
+
+    <hr>
+    <!-- Hyperlink to Contact Details page -->
+    <a href="contact.html">Contact Details</a>
+
+  </body>
+
+</html>
